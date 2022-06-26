@@ -28,7 +28,7 @@ def find_and_times(n):
 
 def fac_list(ls):
     """factor each
-    num in lsecond
+    num in ls
     """
     for i in ls:
         find_and_times(i)
