@@ -17,4 +17,4 @@ We have sniffed an unsecured network and found numbers that are used to encrypt 
 ## List of files and description:
 | S/N   |       Files          |        Description  |
 |:-----:|:--------------------:|:-------------------|
-|1. | [0-safe_print_list.py](https://github.com/Dikachis/RSA-Factoring-Challenge/factors) | To Factorize as many numbers as possible into a product of two smaller numbers.|
+|1. | [factors](https://github.com/Dikachis/RSA-Factoring-Challenge/factors) | To Factorize as many numbers as possible into a product of two smaller numbers.|
