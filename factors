@@ -1,7 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ Factor numbers """
 from sys import argv
 from math import sqrt
+
 
 def open_read_file(file_name):
     """read from file
@@ -14,6 +15,7 @@ def open_read_file(file_name):
         number_to_factor.append(int(line))
     return number_to_factor
 
+
 def find_and_times(n):
     """factor each
     n given
@@ -23,12 +25,14 @@ def find_and_times(n):
             print("{}={}*{}".format(n, (n // i), i))
             break
 
+
 def fac_list(ls):
     """factor each
     num in ls
     """
     for i in ls:
         find_and_times(i)
+
 
 if len(argv) == 2:
     fac_list(open_read_file(argv[1]))
