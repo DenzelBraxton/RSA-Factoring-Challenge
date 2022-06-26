@@ -3,7 +3,6 @@
 from sys import argv
 from math import sqrt
 
-
 def open_read_file(file_name):
     """read from file
     add to array
@@ -15,16 +14,14 @@ def open_read_file(file_name):
         number_to_factor.append(int(line))
     return number_to_factor
 
-
 def find_and_times(n):
     """factor each
     n given
     """
-    for i in range(2, n):
+    for i in range(1, n):
         if n == ((n // i) * i):
             print("{}={}*{}".format(n, (n // i), i))
             break
-
 
 def fac_list(ls):
     """factor each
@@ -32,7 +29,6 @@ def fac_list(ls):
     """
     for i in ls:
         find_and_times(i)
-
 
 if len(argv) == 2:
     fac_list(open_read_file(argv[1]))
